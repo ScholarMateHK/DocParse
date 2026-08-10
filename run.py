@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""
+启动脚本 - 运行学术语料解析服务
+"""
+import uvicorn
+
+from app.config import settings
+
+
+if __name__ == "__main__":
+    uvicorn.run(
+        "app.main:app",
+        host=settings.APP_HOST,
+        port=settings.APP_PORT,
+        reload=True,
+        log_level="info"
+    )

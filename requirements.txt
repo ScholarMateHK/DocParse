@@ -1,0 +1,25 @@
+# FastAPI & Server
+fastapi==0.141.1
+uvicorn==0.52.1
+uvicorn-worker==0.4.0
+gunicorn==23.0.0
+python-multipart==0.0.32
+
+# File Processing
+python-docx==1.2.0
+pypdf==6.15.0
+
+# LLM API
+openai==2.53.0
+httpx==0.28.1
+
+# 阿里云文档智能（Document Mind）OCR
+alibabacloud_docmind_api20220711==1.4.14
+alibabacloud_tea_openapi==0.4.5
+alibabacloud_tea_util==0.3.15
+
+# Utilities
+pydantic==2.13.4
+pydantic-settings==2.15.0
+python-dotenv==1.2.2
+filelock==3.32.2
